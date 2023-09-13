@@ -12,7 +12,7 @@ class FizzBuzz {
         }
     }
 
-    private static int doFizzBuzz(int i) {
+    public static int doFizzBuzz(int i) {
         String output = "";
         if (i % 3 == 0) {
             output+= "fizz";
